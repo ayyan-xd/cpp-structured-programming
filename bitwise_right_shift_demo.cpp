@@ -3,18 +3,11 @@ using namespace std;
 
 int main(){
     long long a , b;
-
     cout<<"Enter the first number : ";
     cin>>a;
-    
     cout<<"Enter the second number : ";
     cin>>b;
-
     while(a!=b ){
-        
-            
-        
-        
         a=a>>2;
         cout<<"first number : "<<a<<endl;
         b=b*b;
